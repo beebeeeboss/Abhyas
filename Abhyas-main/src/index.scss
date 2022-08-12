@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply w-full font-mono;
+}
+
+.move-me:hover {
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+
+}
+.underme{
+    border-bottom: 3px solid orange;
+}
